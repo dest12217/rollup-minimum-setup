@@ -5,6 +5,7 @@
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.es.js",
   "browser": "dist/bundle.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },
