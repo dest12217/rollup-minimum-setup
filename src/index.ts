@@ -1,5 +1,3 @@
-function call(): string {
-    return 'Hello!';
-}
+import call from './call';
 
 export { call };
