@@ -2,7 +2,9 @@
   "name": "rollup-minimum-setup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.es.js",
+  "browser": "dist/bundle.js",
   "scripts": {
     "build": "rollup -c"
   },
